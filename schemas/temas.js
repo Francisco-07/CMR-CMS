@@ -31,6 +31,16 @@ export default {
       },
     },
     {
+      name: 'spotify',
+      title: 'Spotify',
+      type: 'string',
+    },
+    {
+      name: 'youtube',
+      title: 'Youtube',
+      type: 'string',
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'date',
