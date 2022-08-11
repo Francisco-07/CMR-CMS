@@ -30,6 +30,16 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'spotify',
+      title: 'Spotify',
+      type: 'string',
+    },
+    {
+      name: 'instagram',
+      title: 'Instagram',
+      type: 'string',
+    },
   ],
   preview: {
     select: {
