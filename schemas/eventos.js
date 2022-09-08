@@ -2,6 +2,9 @@ export default {
   name: 'eventos',
   title: 'Eventos',
   type: 'document',
+  initialValue: {
+    disponible: false,
+  },
   fields: [
     {
       name: 'title',
@@ -17,6 +20,11 @@ export default {
       name: 'publishedAt',
       title: 'Published at',
       type: 'date',
+    },
+    {
+      title: 'Esta disponible el evento?',
+      name: 'disponible',
+      type: 'boolean',
     },
   ],
 }
